@@ -15,27 +15,31 @@
     <com.google.android.material.card.MaterialCardView
         android:id="@+id/card"
         android:layout_width="0dp"
-        app:cardBackgroundColor="@color/colorAccent"
         android:layout_height="0dp">
 
         <RelativeLayout
+            android:id="@+id/relative_motion"
             android:layout_width="match_parent"
-            android:layout_height="match_parent">
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent"
+            >
 
             <ImageView
                 android:id="@+id/arrow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_centerInParent="true"
-                android:src="@drawable/ic_launcher_background" />
+                android:src="@drawable/ic_baseline_edit_24" />
 
             <EditText
                 android:id="@+id/editText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
-                android:imeOptions="actionGo"
-                android:hint="Somehint"
+                android:imeOptions="actionDone"
+                android:singleLine="true"
+                android:textColor="#000000"
+                android:hint="Texto"
                 android:visibility="gone" />
 
         </RelativeLayout>

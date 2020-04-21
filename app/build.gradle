@@ -49,13 +49,13 @@ android {
     productFlavors {
         homolog {
             applicationId "com.developer.allef.boilerplateapp.homolog"
-            resValue "string", "app_name", "BooilerPlate App Homolog"
+            resValue "string", "app_name", "Motion Layout"
             dimension "version"
 
         }
         prod {
             applicationId "com.developer.allef.boilerplateapp"
-            resValue "string", "app_name", "BooilerPlate App"
+            resValue "string", "app_name", "Motion Layout"
             dimension "version"
 
         }
